@@ -3,12 +3,12 @@
 require_relative 'spec'
 def fizzbuzz(int)
   if int % 3 == 0
-    returns "fizz"
+    return "fizz"
     elsif int % 5 == 0
-    returns "buzz"
+    return "buzz"
     elsif int % 3 == 0 && int % 5 == 0
-      returns "fizzbuzz"
+      return "fizzbuzz"
     else 
-      returns "nil"
+      return "nil"
 end
 end
