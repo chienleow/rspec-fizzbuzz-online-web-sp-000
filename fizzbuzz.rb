@@ -7,6 +7,8 @@ def fizzbuzz
     returns "buzz"
     if int % 3 == 0 && int % 5 == 0
       returns "fizzbuzz"
+    else 
+      returns "nil"
 end
 end
 end
